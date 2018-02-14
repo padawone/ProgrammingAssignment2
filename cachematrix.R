@@ -17,7 +17,6 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Function that solve inverse matrix it check if previous inverse exists
-## also check if current matrix is identical to inverse of inverse (originalMatrix)
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
